@@ -88,43 +88,85 @@ export const docs: DocPage[] = [
     slug: "terms-of-service",
     title: { ru: "Пользовательское соглашение", en: "Terms of Service" },
     summary: {
-      ru: "Правила регистрации, использования сервиса, подписки, ограничений и ответственности.",
-      en: "Rules for registration, service use, subscriptions, restrictions, and liability.",
+      ru: "Правила использования Lemiri AI, регистрации, подписки, ответственности и прав пользователя.",
+      en: "Terms governing the use of Lemiri AI, registration, subscription, liability, and user rights.",
     },
     sections: [
       {
-        title: { ru: "Предмет соглашения", en: "Subject" },
+        title: { ru: "Предмет", en: "Subject" },
         body: {
-          ru: ["{{CompanyName}} предоставляет доступ к Lemiri AI — SaaS-платформе для автоматизации общения с клиентами. Пользователь получает право использовать сервис в рамках выбранного тарифа."],
-          en: ["{{CompanyName}} provides access to Lemiri AI, a SaaS platform for customer communication automation. The user may use the service within the selected plan."],
+          ru: ["Lemiri AI предоставляет интеллектуального ИИ-сотрудника для работы с клиентскими обращениями. Сервис помогает отвечать на сообщения, использовать базу знаний, работать с CRM и календарем."],
+          en: ["Lemiri AI provides an intelligent AI employee for handling customer inquiries. The service helps answer messages, use a knowledge base, and work with CRM and calendar systems."],
         },
       },
       {
-        title: { ru: "Регистрация и использование", en: "Registration and use" },
+        title: { ru: "Регистрация", en: "Registration" },
         body: {
-          ru: ["Пользователь указывает корректные данные, отвечает за сохранность аккаунта и использует сервис только законным способом.", "Запрещено загружать вредоносные материалы, нарушать права третьих лиц, пытаться обходить ограничения или использовать сервис для спама."],
-          en: ["The user provides accurate information, keeps account access secure, and uses the service lawfully.", "Uploading harmful materials, infringing third-party rights, bypassing limits, or using the service for spam is prohibited."],
+          ru: ["Для использования Lemiri AI пользователь может создать аккаунт и предоставить точные контактные и платёжные данные. Пользователь отвечает за безопасность своих учетных данных."],
+          en: ["To use Lemiri AI, the user may create an account and provide accurate contact and billing information. The user is responsible for the security of their credentials."],
         },
       },
       {
-        title: { ru: "Интеллектуальная собственность", en: "Intellectual property" },
+        title: { ru: "Использование сервиса", en: "Use of the Service" },
         body: {
-          ru: ["Права на Lemiri AI, интерфейс, код, дизайн и материалы сервиса принадлежат {{CompanyName}} или правообладателям. Данные, загруженные пользователем, остаются данными пользователя."],
-          en: ["Rights to Lemiri AI, its interface, code, design, and service materials belong to {{CompanyName}} or the respective rights holders. User-uploaded data remains the user’s data."],
+          ru: ["Пользователь может использовать сервис только в законных и деловых целях. Пользователь несет ответственность за содержание, документы, инструкции и интеграции, подключенные к сервису."],
+          en: ["The user may use the service only for lawful business purposes. The user is responsible for the content, documents, instructions, and integrations connected to the service."],
         },
       },
       {
-        title: { ru: "Подписка и блокировка", en: "Subscription and suspension" },
+        title: { ru: "Обязанности пользователя", en: "User obligations" },
         body: {
-          ru: ["Доступ предоставляется по подписке. При нарушении условий, неоплате или угрозе безопасности {{CompanyName}} может ограничить или заблокировать аккаунт."],
-          en: ["Access is provided by subscription. If terms are violated, payment is missing, or security is at risk, {{CompanyName}} may restrict or suspend the account."],
+          ru: ["Пользователь обязуется предоставлять достоверные данные, хранить логин и пароль в безопасности, использовать сервис этично и не нарушать права третьих лиц.", "Пользователь должен контролировать использование системы и работу ИИ, чтобы избежать неправомерных действий."],
+          en: ["The user agrees to provide truthful information, keep login and password secure, use the service ethically, and not infringe third-party rights.", "The user must monitor system use and AI behavior to prevent unlawful actions."],
         },
       },
       {
-        title: { ru: "Ответственность и контакты", en: "Liability and contacts" },
+        title: { ru: "Ограничения", en: "Restrictions" },
         body: {
-          ru: ["Сервис предоставляется без гарантии бесперебойной работы. Пользователь отвечает за проверку результатов ИИ перед использованием в критичных процессах.", "Контакты: {{Email}}, {{Phone}}, {{Website}}."],
-          en: ["The service is provided without a guarantee of uninterrupted operation. The user is responsible for checking AI outputs before using them in critical processes.", "Contacts: {{Email}}, {{Phone}}, {{Website}}."],
+          ru: ["Запрещено использовать сервис для незаконных, вредоносных, вводящих в заблуждение или спам-рассылок действий.", "Нельзя пытаться нарушить систему, обойти защиту или использовать сервис для вредоносных целей."],
+          en: ["It is prohibited to use the service for illegal, harmful, deceptive, or spam-related activities.", "Do not attempt to breach the system, bypass protections, or use the service for malicious purposes."],
+        },
+      },
+      {
+        title: { ru: "Интеллектуальная собственность", en: "Intellectual Property" },
+        body: {
+          ru: ["Lemiri AI, программное обеспечение, дизайн, интерфейс и материалы принадлежат {{CompanyName}} или её правообладателям.", "Пользователь сохраняет права на свои собственные данные и загруженный контент."],
+          en: ["Lemiri AI, the software, design, interface, and materials are owned by {{CompanyName}} or its licensors.", "The user retains rights to their own data and uploaded content."],
+        },
+      },
+      {
+        title: { ru: "Подписка и оплата", en: "Subscription and Payment" },
+        body: {
+          ru: ["Сервис предоставляется по подписке. Условия, цена и особенности тарифа отображаются при оформлении покупки.", "Платежи могут обрабатываться через {{PaymentProvider}} или другого провайдера, указанного при оплате."],
+          en: ["The service is provided by subscription. Terms, price, and plan features are displayed during checkout.", "Payments may be processed through {{PaymentProvider}} or another provider specified at payment."],
+        },
+      },
+      {
+        title: { ru: "Ограничение ответственности", en: "Limitation of Liability" },
+        body: {
+          ru: ["Сервис не гарантирует бесперебойную или безошибочную работу. {{CompanyName}} не несет ответственности за косвенные убытки, упущенную выгоду или решения, принятые на основе ответов ИИ."],
+          en: ["The service does not guarantee uninterrupted or error-free operation. {{CompanyName}} is not liable for indirect losses, lost profits, or decisions made based on AI responses."],
+        },
+      },
+      {
+        title: { ru: "Приостановка доступа", en: "Account Suspension" },
+        body: {
+          ru: ["{{CompanyName}} может приостановить или ограничить доступ при нарушении условий, подозрении на мошенничество, угрозе безопасности или отсутствии оплаты."],
+          en: ["{{CompanyName}} may suspend or restrict access if terms are violated, fraud is suspected, security is threatened, or payment is overdue."],
+        },
+      },
+      {
+        title: { ru: "Изменения условий", en: "Changes to Terms" },
+        body: {
+          ru: ["{{CompanyName}} может обновлять условия. Важные изменения публикуются на сайте или отправляются через аккаунт или email."],
+          en: ["{{CompanyName}} may update the terms. Material changes are published on the website or communicated through the account or email."],
+        },
+      },
+      {
+        title: { ru: "Контакты", en: "Contacts" },
+        body: {
+          ru: ["Компания: {{CompanyName}}", "Юридический адрес: {{LegalAddress}}", "Email: {{Email}}", "Телефон: {{Phone}}", "Сайт: {{Website}}"],
+          en: ["Company: {{CompanyName}}", "Legal address: {{LegalAddress}}", "Email: {{Email}}", "Phone: {{Phone}}", "Website: {{Website}}"],
         },
       },
     ],
@@ -133,43 +175,78 @@ export const docs: DocPage[] = [
     slug: "privacy-policy",
     title: { ru: "Политика конфиденциальности", en: "Privacy Policy" },
     summary: {
-      ru: "Какие данные собирает Lemiri AI, зачем они нужны, как хранятся и как пользователь может ими управлять.",
-      en: "What data Lemiri AI collects, why it is needed, how it is stored, and how users can manage it.",
+      ru: "Определяет, какие данные собираются, зачем они нужны, как хранятся и с кем могут быть разделены.",
+      en: "Explains what data is collected, why it is needed, how it is stored, and with whom it may be shared.",
     },
     sections: [
       {
-        title: { ru: "Какие данные собираются", en: "Data collected" },
+        title: { ru: "Собираемые данные", en: "Data We Collect" },
         body: {
-          ru: ["Мы можем обрабатывать данные аккаунта, контактные данные, платёжную информацию через {{PaymentProvider}}, настройки, сообщения клиентов, загруженные документы, базу знаний, историю действий и технические данные."],
-          en: ["We may process account data, contact details, payment information through {{PaymentProvider}}, settings, customer messages, uploaded documents, knowledge-base content, activity history, and technical data."],
+          ru: ["Мы можем собирать данные аккаунта: имя, email, телефон, название компании; платёжные данные для обработки подписок; технические данные: IP, браузер, устройство, логи, cookies; загруженные документы, FAQ, контент сайта и материалы базы знаний; сообщения клиентов и данные интеграций."],
+          en: ["We may collect account data: name, email, phone, company name; payment data to process subscriptions; technical data: IP, browser, device, logs, cookies; uploaded documents, FAQ, website content and knowledge base materials; customer messages, and integration data."],
         },
       },
       {
-        title: { ru: "Цели обработки", en: "Purposes" },
+        title: { ru: "Зачем собираются данные", en: "Why We Collect Data" },
         body: {
-          ru: ["Данные используются для работы сервиса, ответов ИИ, интеграций, поддержки, оплаты, безопасности, улучшения качества и исполнения договорных обязательств."],
-          en: ["Data is used to operate the service, power AI replies, support integrations, provide support, process payments, maintain security, improve quality, and fulfill contractual obligations."],
+          ru: ["Данные обрабатываются для работы и улучшения Lemiri AI, создания и управления аккаунтом, обработки подписок и платежей, выполнения AI-диалогов и поддержки интеграций, предоставления поддержки, защиты сервиса и соблюдения обязательств."],
+          en: ["Data is processed to operate and improve Lemiri AI, create and manage accounts, process subscriptions and payments, perform AI conversations and integrations, provide support, protect the service, and comply with obligations."],
         },
       },
       {
-        title: { ru: "Cookie и хранение", en: "Cookies and storage" },
+        title: { ru: "AI-обработка", en: "AI Processing" },
         body: {
-          ru: ["Cookie и похожие технологии могут использоваться для входа, аналитики и сохранения настроек. Срок хранения зависит от цели обработки и требований к работе сервиса."],
-          en: ["Cookies and similar technologies may be used for login, analytics, and preferences. Storage duration depends on the processing purpose and service operation requirements."],
+          ru: ["Lemiri AI может обрабатывать загруженные документы, бизнес-правила и сообщения клиентов для генерации ответов и выполнения настроенных действий. Пользователь отвечает за законность загрузки и обработки таких данных."],
+          en: ["Lemiri AI may process uploaded documents, business rules, and customer messages to generate replies and perform configured actions. The user is responsible for the legality of uploading and processing such data."],
         },
       },
       {
-        title: { ru: "Передача третьим лицам", en: "Third parties" },
+        title: { ru: "Cookies", en: "Cookies" },
         body: {
-          ru: ["Данные могут передаваться провайдерам хостинга, платежей, связи, аналитики, CRM и ИИ-инфраструктуры только в объёме, необходимом для работы Lemiri AI."],
-          en: ["Data may be shared with hosting, payment, communication, analytics, CRM, and AI infrastructure providers only as needed to operate Lemiri AI."],
+          ru: ["Cookie и схожие технологии могут использоваться для поддержки сессий входа, безопасности, аналитики, настроек и производительности продукта."],
+          en: ["Cookies and similar technologies may be used to support login sessions, security, analytics, preferences, and product performance."],
         },
       },
       {
-        title: { ru: "Права пользователя", en: "User rights" },
+        title: { ru: "Хранение данных", en: "Data Storage" },
         body: {
-          ru: ["Пользователь может запросить доступ, исправление, экспорт или удаление данных, а также удаление аккаунта. Запросы направляются на {{Email}}."],
-          en: ["The user may request access, correction, export, deletion of data, or account deletion. Requests should be sent to {{Email}}."],
+          ru: ["Данные хранятся столько, сколько необходимо для предоставления сервиса, выполнения юридических или платёжных обязательств, разрешения споров и обеспечения безопасности. Некоторые данные могут сохраняться в резервных копиях на ограниченное время."],
+          en: ["Data is stored as long as needed to provide the service, fulfill legal or billing obligations, resolve disputes, and maintain security. Some data may remain in backups for a limited time."],
+        },
+      },
+      {
+        title: { ru: "Защита данных", en: "Data Protection" },
+        body: {
+          ru: ["Мы используем разумные технические и организационные меры для защиты данных от несанкционированного доступа, утраты, злоупотребления или раскрытия. Абсолютной безопасности ни один сервис не гарантирует."],
+          en: ["We use reasonable technical and organizational measures to protect data from unauthorized access, loss, misuse, or disclosure. No online service can guarantee absolute security."],
+        },
+      },
+      {
+        title: { ru: "Передача третьим лицам", en: "Sharing with Third Parties" },
+        body: {
+          ru: ["Данные могут передаваться платёжным провайдерам, хостингу, AI-провайдерам, CRM, календарям, мессенджерам и юридическим органам, если это необходимо для работы сервиса или требуется по закону. Мы не продаем персональные данные."],
+          en: ["Data may be shared with payment providers, hosting, AI providers, CRM, calendar, messenger services, and legal authorities if needed to operate the service or required by law. We do not sell personal data."],
+        },
+      },
+      {
+        title: { ru: "Права пользователя", en: "User Rights" },
+        body: {
+          ru: ["В зависимости от применимых правил пользователь может запросить доступ, исправление, удаление, ограничение, экспорт или возражение против обработки своих данных."],
+          en: ["Depending on applicable rules, the user may request access, correction, deletion, restriction, export, or objection to processing of their data."],
+        },
+      },
+      {
+        title: { ru: "Удаление аккаунта", en: "Account Deletion" },
+        body: {
+          ru: ["Пользователь может запросить удаление аккаунта, написав на {{Email}}. Некоторые данные могут сохраняться там, где это требуется для безопасности, выставления счетов или разрешения споров."],
+          en: ["The user may request account deletion by contacting {{Email}}. Some data may be retained where required for security, billing, or dispute resolution."],
+        },
+      },
+      {
+        title: { ru: "Контакты", en: "Contacts" },
+        body: {
+          ru: ["Компания: {{CompanyName}}", "Юридический адрес: {{LegalAddress}}", "Email: {{Email}}", "Телефон: {{Phone}}", "Сайт: {{Website}}"],
+          en: ["Company: {{CompanyName}}", "Legal address: {{LegalAddress}}", "Email: {{Email}}", "Phone: {{Phone}}", "Website: {{Website}}"],
         },
       },
     ],
@@ -178,8 +255,8 @@ export const docs: DocPage[] = [
     slug: "personal-data-consent",
     title: { ru: "Согласие на обработку персональных данных", en: "Personal Data Consent" },
     summary: {
-      ru: "Краткое согласие пользователя на обработку данных для работы Lemiri AI.",
-      en: "A short user consent for data processing required to operate Lemiri AI.",
+      ru: "Краткое согласие пользователя на обработку данных, необходимых для работы Lemiri AI.",
+      en: "A short user consent for processing data necessary to operate Lemiri AI.",
     },
     sections: [
       {
@@ -190,17 +267,45 @@ export const docs: DocPage[] = [
         },
       },
       {
-        title: { ru: "Цель обработки", en: "Purpose" },
+        title: { ru: "Данные, охваченные согласием", en: "Data Covered by This Consent" },
         body: {
-          ru: ["Цели: создание аккаунта, предоставление доступа, обработка платежей, поддержка, безопасность, уведомления и работа подключённых функций сервиса."],
-          en: ["Purposes: account creation, access provision, payment processing, support, security, notifications, and operation of connected service features."],
+          ru: ["Согласие может включать имя, email, телефон, название компании, данные аккаунта и подписки, сообщения и запросы в Lemiri AI, загруженные документы, контент базы знаний и данные интеграций."],
+          en: ["The consent may include name, email, phone number, company name, account and subscription data, messages and requests in Lemiri AI, uploaded documents, knowledge base content, and integration data."],
         },
       },
       {
-        title: { ru: "Срок и отзыв", en: "Term and withdrawal" },
+        title: { ru: "Цель обработки", en: "Purpose of Processing" },
         body: {
-          ru: ["Согласие действует до его отзыва или до прекращения необходимости обработки. Отозвать согласие можно письмом на {{Email}}. Отзыв может ограничить доступ к сервису."],
-          en: ["Consent remains valid until withdrawn or until processing is no longer needed. It can be withdrawn by contacting {{Email}}. Withdrawal may limit access to the service."],
+          ru: ["Данные обрабатываются для создания и обслуживания аккаунта, предоставления доступа, работы ИИ-коммуникаций, обработки платежей, оказания поддержки, улучшения качества и безопасности."],
+          en: ["Data is processed to create and maintain an account, provide access, operate AI communications, process payments, provide support, and improve quality and security."],
+        },
+      },
+      {
+        title: { ru: "Методы обработки", en: "Processing Methods" },
+        body: {
+          ru: ["Обработка может включать сбор, запись, хранение, организацию, использование, передачу подключенным провайдерам и удаление данных, необходимых для работы сервиса."],
+          en: ["Processing may include collection, recording, storage, organization, use, transfer to connected providers, and deletion of data needed to operate the service."],
+        },
+      },
+      {
+        title: { ru: "Срок действия", en: "Term" },
+        body: {
+          ru: ["Согласие действует, пока пользователь пользуется Lemiri AI и до тех пор, пока обработка данных необходима для выполнения обязательств."],
+          en: ["The consent remains valid while the user uses Lemiri AI and as long as data processing is necessary to fulfill obligations."],
+        },
+      },
+      {
+        title: { ru: "Отзыв", en: "Withdrawal" },
+        body: {
+          ru: ["Пользователь может отозвать согласие, отправив запрос на {{Email}}. Отзыв может привести к ограничению или прекращению доступа к некоторым функциям."],
+          en: ["The user may withdraw consent by sending a request to {{Email}}. Withdrawal may result in limited or discontinued access to some features."],
+        },
+      },
+      {
+        title: { ru: "Контакты", en: "Contacts" },
+        body: {
+          ru: ["Компания: {{CompanyName}}", "Юридический адрес: {{LegalAddress}}", "Email: {{Email}}", "Телефон: {{Phone}}", "Сайт: {{Website}}"],
+          en: ["Company: {{CompanyName}}", "Legal address: {{LegalAddress}}", "Email: {{Email}}", "Phone: {{Phone}}", "Website: {{Website}}"],
         },
       },
     ],
