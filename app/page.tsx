@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState } from "react";
 import logoUrl from "./lemiri-logo.png?url";
@@ -34,75 +34,75 @@ const pricing = {
 
 const copy = {
   ru: {
-    nav: ["Р’РѕР·РјРѕР¶РЅРѕСЃС‚Рё", "РљР°Рє СЂР°Р±РѕС‚Р°РµС‚", "Р РѕР»Рё", "Р’РѕРїСЂРѕСЃС‹"],
-    product: "РџРѕСЃРјРѕС‚СЂРµС‚СЊ РїСЂРѕРґСѓРєС‚",
-    try: "РџРѕРїСЂРѕР±РѕРІР°С‚СЊ",
-    lang: "РџРµСЂРµРєР»СЋС‡РёС‚СЊ СЏР·С‹Рє",
-    eyebrow: "РР-СЃРѕС‚СЂСѓРґРЅРёРє СѓР¶Рµ РЅР° СЃРІСЏР·Рё",
-    heroStart: "РќР°Р№РјРёС‚Рµ СЃРѕС‚СЂСѓРґРЅРёРєР°,",
-    heroMid: "РєРѕС‚РѕСЂС‹Р№",
-    heroEnd: "РЅРё РѕРґРЅРѕРіРѕ РєР»РёРµРЅС‚Р°",
-    phrases: ["РЅРµ РїСЂРѕРїСѓСЃРєР°РµС‚", "РЅРµ СѓРїСѓСЃРєР°РµС‚", "РЅРµ Р·Р°Р±С‹РІР°РµС‚"],
-    heroText: "Lemiri AI РѕС‚РІРµС‡Р°РµС‚ РєР»РёРµРЅС‚Р°Рј, СЃРѕР±РёСЂР°РµС‚ Р·Р°СЏРІРєРё, Р·Р°РїРёСЃС‹РІР°РµС‚ РЅР° СѓСЃР»СѓРіРё Рё РїРµСЂРµРґР°РµС‚ СЃР»РѕР¶РЅС‹Рµ РґРёР°Р»РѕРіРё РјРµРЅРµРґР¶РµСЂСѓ РїРѕ РїСЂР°РІРёР»Р°Рј РІР°С€РµРіРѕ Р±РёР·РЅРµСЃР°.",
-    primary: "РЎРѕР·РґР°С‚СЊ РР-СЃРѕС‚СЂСѓРґРЅРёРєР°",
-    secondary: "РљР°Рє СЌС‚Рѕ СЂР°Р±РѕС‚Р°РµС‚",
-    trust: ["Р Р°Р±РѕС‚Р°РµС‚ С‚Р°Рј, РіРґРµ РїРёС€СѓС‚ РєР»РёРµРЅС‚С‹", "РЎР°Р№С‚", "WhatsApp", "Telegram", "РљР°Р»РµРЅРґР°СЂСЊ", "CRM"],
+    nav: ["Возможности", "Как работает", "Роли", "Вопросы"],
+    product: "Посмотреть продукт",
+    try: "Попробовать",
+    lang: "Переключить язык",
+    eyebrow: "ИИ-сотрудник уже на связи",
+    heroStart: "Наймите сотрудника,",
+    heroMid: "который",
+    heroEnd: "ни одного клиента",
+    phrases: ["не пропускает", "не упускает", "не забывает"],
+    heroText: "Lemiri AI отвечает клиентам, собирает заявки, записывает на услуги и передаёт сложные диалоги менеджеру по правилам вашего бизнеса.",
+    primary: "Создать ИИ-сотрудника",
+    secondary: "Как это работает",
+    trust: ["Работает там, где пишут клиенты", "Сайт", "WhatsApp", "Telegram", "Календарь", "CRM"],
     capabilities: {
-      kicker: "РћРґРёРЅ СЃРѕС‚СЂСѓРґРЅРёРє. Р’РµСЃСЊ РїСѓС‚СЊ РєР»РёРµРЅС‚Р°.",
-      title: ["РќРµ РїСЂРѕСЃС‚Рѕ РѕС‚РІРµС‡Р°РµС‚.", "Р”РѕРІРѕРґРёС‚ РґРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°."],
-      text: "РР РёСЃРїРѕР»СЊР·СѓРµС‚ Р±Р°Р·Сѓ Р·РЅР°РЅРёР№ РєРѕРјРїР°РЅРёРё, РїРѕРјРЅРёС‚ РєРѕРЅС‚РµРєСЃС‚ РґРёР°Р»РѕРіР° Рё РїРѕРЅРёРјР°РµС‚, РєРѕРіРґР° РЅСѓР¶РЅРѕ РїРµСЂРµРґР°С‚СЊ СЂР°Р·РіРѕРІРѕСЂ С‡РµР»РѕРІРµРєСѓ.",
+      kicker: "Один сотрудник. Весь путь клиента.",
+      title: ["Не просто отвечает.", "Доводит до результата."],
+      text: "ИИ использует базу знаний компании, помнит контекст диалога и понимает, когда нужно передать разговор человеку.",
       cards: [
-        ["РћР±С‰РµРЅРёРµ", "РћС‚РІРµС‡Р°РµС‚ СЃСЂР°Р·Сѓ Рё РїРѕ РґРµР»Сѓ", "Р’РµРґРµС‚ РµСЃС‚РµСЃС‚РІРµРЅРЅС‹Р№ РґРёР°Р»РѕРі РІ С‡Р°С‚Рµ Рё РјРµСЃСЃРµРЅРґР¶РµСЂР°С…, СЃРѕС…СЂР°РЅСЏСЏ С‚РѕРЅ Р±СЂРµРЅРґР°."],
-        ["Р—РЅР°РЅРёСЏ", "РќРµ РІС‹РґСѓРјС‹РІР°РµС‚ С„Р°РєС‚С‹", "РћС‚РІРµС‡Р°РµС‚ РїРѕ СЃР°Р№С‚Сѓ, РґРѕРєСѓРјРµРЅС‚Р°Рј, FAQ Рё РїСЂР°РІРёР»Р°Рј РєРѕРјРїР°РЅРёРё."],
-        ["РљРѕРЅС‚СЂРѕР»СЊ", "РџРµСЂРµРґР°РµС‚ С‡РµР»РѕРІРµРєСѓ РІРѕРІСЂРµРјСЏ", "РћРїСЂРµРґРµР»СЏРµС‚ СЃР»РѕР¶РЅС‹Рµ РІРѕРїСЂРѕСЃС‹ Рё РїСЂРёРєР»Р°РґС‹РІР°РµС‚ РєСЂР°С‚РєРѕРµ СЂРµР·СЋРјРµ РґРёР°Р»РѕРіР°."],
-        ["Р”РµР№СЃС‚РІРёСЏ", "Р”РµР»Р°РµС‚ СЃР»РµРґСѓСЋС‰РёР№ С€Р°Рі", "РЎРѕР·РґР°РµС‚ Р·Р°СЏРІРєСѓ, РїРѕРєР°Р·С‹РІР°РµС‚ СЃРІРѕР±РѕРґРЅС‹Рµ РѕРєРЅР°, РјРµРЅСЏРµС‚ СЃС‚Р°С‚СѓСЃ Рё СѓРІРµРґРѕРјР»СЏРµС‚ РєРѕРјР°РЅРґСѓ."],
+        ["Общение", "Отвечает сразу и по делу", "Ведёт естественный диалог в чате и мессенджерах, сохраняя тон бренда."],
+        ["Знания", "Не выдумывает факты", "Отвечает по сайту, документам, FAQ и правилам компании."],
+        ["Контроль", "Передаёт человеку вовремя", "Определяет сложные вопросы и прикладывает краткое резюме диалога."],
+        ["Действия", "Делает следующий шаг", "Создаёт заявку, показывает свободные окна, меняет статус и уведомляет команду."],
       ],
-      miniChat: ["РљР»РёРµРЅС‚", "РџРѕРґСЃРєР°Р¶РёС‚Рµ, РµСЃС‚СЊ РґРѕСЃС‚Р°РІРєР° СЃРµРіРѕРґРЅСЏ?", "Lemiri В· РёСЃС‚РѕС‡РЅРёРє: FAQ", "Р”Р°, Р·Р°РєР°Р·С‹ РґРѕ 17:00 РґРѕСЃС‚Р°РІРёРј СЃРµРіРѕРґРЅСЏ."],
-      sources: ["РЎР°Р№С‚", "РЈСЃР»СѓРіРё Рё С†РµРЅС‹.pdf", "FAQ"],
-      flow: ["Р”РёР°Р»РѕРі Р·Р°РІРµСЂС€РµРЅ", "Р›РёРґ СЃРѕР·РґР°РЅ", "РљРѕРјР°РЅРґР° СѓРІРµРґРѕРјР»РµРЅР°"],
+      miniChat: ["Клиент", "Подскажите, есть доставка сегодня?", "Lemiri · источник: FAQ", "Да, заказы до 17:00 доставим сегодня."],
+      sources: ["Сайт", "Услуги и цены.pdf", "FAQ"],
+      flow: ["Диалог завершён", "Лид создан", "Команда уведомлена"],
     },
     how: {
-      kicker: "Р—Р°РїСѓСЃРє Р±РµР· С‚РµС…РЅРёС‡РµСЃРєРёС… Р·РЅР°РЅРёР№",
-      title: ["РћС‚ РёРґРµРё РґРѕ РїРµСЂРІРѕРіРѕ", "РґРёР°Р»РѕРіР° Р·Р° 15 РјРёРЅСѓС‚"],
-      text: "Р’С‹ РІС‹Р±РёСЂР°РµС‚Рµ СЂРѕР»СЊ, РґРѕР±Р°РІР»СЏРµС‚Рµ Р·РЅР°РЅРёСЏ, РїРѕРґРєР»СЋС‡Р°РµС‚Рµ РєР°РЅР°Р» СЃРІСЏР·Рё Рё РїСЂРѕРІРµСЂСЏРµС‚Рµ РѕС‚РІРµС‚С‹ РІ С‚РµСЃС‚РѕРІРѕРј СЂРµР¶РёРјРµ.",
+      kicker: "Запуск без технических знаний",
+      title: ["От идеи до первого", "диалога за 15 минут"],
+      text: "Вы выбираете роль, добавляете знания, подключаете канал связи и проверяете ответы в тестовом режиме.",
       steps: [
-        ["01", "Р’С‹Р±РµСЂРёС‚Рµ СЂРѕР»СЊ", "РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ, РїСЂРѕРґР°Р¶Рё РёР»Рё РїРѕРґРґРµСЂР¶РєР°. Lemiri РїСЂРµРґР»РѕР¶РёС‚ СЃС†РµРЅР°СЂРёРё РїРѕРґ Р·Р°РґР°С‡Сѓ."],
-        ["02", "Р”РѕР±Р°РІСЊС‚Рµ Р·РЅР°РЅРёСЏ", "РџРѕРґРєР»СЋС‡РёС‚Рµ СЃР°Р№С‚, РґРѕРєСѓРјРµРЅС‚С‹ Рё FAQ, С‡С‚РѕР±С‹ РѕС‚РІРµС‚С‹ Р±С‹Р»Рё РїСЂРёРІСЏР·Р°РЅС‹ Рє РёСЃС‚РѕС‡РЅРёРєР°Рј."],
-        ["03", "РџРѕРґРєР»СЋС‡РёС‚Рµ РєР°РЅР°Р»", "РЎР°Р№С‚, WhatsApp, Telegram, CRM РёР»Рё РєР°Р»РµРЅРґР°СЂСЊ СЃРѕР±РёСЂР°СЋС‚СЃСЏ РІ РѕРґРёРЅ РїСЂРѕС†РµСЃСЃ."],
-        ["04", "РџСЂРѕРІРµСЂСЊС‚Рµ Рё Р·Р°РїСѓСЃС‚РёС‚Рµ", "РџСЂРѕС‚РµСЃС‚РёСЂСѓР№С‚Рµ РґРёР°Р»РѕРіРё Рё РІРєР»СЋС‡РёС‚Рµ РР-СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ РєР»РёРµРЅС‚РѕРІ."],
+        ["01", "Выберите роль", "Администратор, продажи или поддержка. Lemiri предложит сценарии под задачу."],
+        ["02", "Добавьте знания", "Подключите сайт, документы и FAQ, чтобы ответы были привязаны к источникам."],
+        ["03", "Подключите канал", "Сайт, WhatsApp, Telegram, CRM или календарь собираются в один процесс."],
+        ["04", "Проверьте и запустите", "Протестируйте диалоги и включите ИИ-сотрудника для клиентов."],
       ],
     },
     roles: {
-      kicker: "РџРѕРЅСЏС‚РЅС‹Рµ СЂРѕР»Рё",
-      title: ["РќР°С‡РЅРёС‚Рµ СЃ С‚РѕРіРѕ,", "РєС‚Рѕ РЅСѓР¶РµРЅ СЃРµРіРѕРґРЅСЏ"],
-      text: "РљР°Р¶РґР°СЏ СЂРѕР»СЊ РѕС‚РІРµС‡Р°РµС‚ Р·Р° РєРѕРЅРєСЂРµС‚РЅС‹Р№ Р±РёР·РЅРµСЃ-СЂРµР·СѓР»СЊС‚Р°С‚.",
+      kicker: "Понятные роли",
+      title: ["Начните с того,", "кто нужен сегодня"],
+      text: "Каждая роль отвечает за конкретный бизнес-результат.",
       items: [
-        ["01", "РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ", "РћС‚РІРµС‡Р°РµС‚ РЅР° РІРѕРїСЂРѕСЃС‹, Р·Р°РїРёСЃС‹РІР°РµС‚ Рё РЅР°РїРѕРјРёРЅР°РµС‚ Рѕ РІРёР·РёС‚Рµ."],
-        ["02", "РњРµРЅРµРґР¶РµСЂ РїСЂРѕРґР°Р¶", "РЈС‚РѕС‡РЅСЏРµС‚ РїРѕС‚СЂРµР±РЅРѕСЃС‚СЊ, Р±СЋРґР¶РµС‚ Рё РїРµСЂРµРґР°РµС‚ С‚РµРїР»РѕРіРѕ Р»РёРґР° РєРѕРјР°РЅРґРµ."],
-        ["03", "РџРѕРґРґРµСЂР¶РєР°", "Р РµС€Р°РµС‚ С‚РёРїРѕРІС‹Рµ РІРѕРїСЂРѕСЃС‹ РїРѕ Р±Р°Р·Рµ Р·РЅР°РЅРёР№ Рё Р·РѕРІРµС‚ С‡РµР»РѕРІРµРєР° РІРѕРІСЂРµРјСЏ."],
+        ["01", "Администратор", "Отвечает на вопросы, записывает и напоминает о визите."],
+        ["02", "Менеджер продаж", "Уточняет потребность, бюджет и передаёт тёплого лида команде."],
+        ["03", "Поддержка", "Решает типовые вопросы по базе знаний и зовёт человека вовремя."],
       ],
-      action: "Р’С‹Р±СЂР°С‚СЊ СЂРѕР»СЊ",
+      action: "Выбрать роль",
     },
     proof: {
-      kicker: "Р’СЃРµ РїРѕРґ РєРѕРЅС‚СЂРѕР»РµРј",
-      title: ["Р’С‹ РІРёРґРёС‚Рµ РЅРµ С‚РѕР»СЊРєРѕ РѕС‚РІРµС‚С‹,", "РЅРѕ Рё СЂРµР·СѓР»СЊС‚Р°С‚"],
-      text: "Р”РёР°Р»РѕРіРё, Р»РёРґС‹, Р·Р°РїРёСЃРё, РїРµСЂРµРґР°С‡Рё С‡РµР»РѕРІРµРєСѓ Рё РѕС€РёР±РєРё СЃРѕР±СЂР°РЅС‹ РІ РїРѕРЅСЏС‚РЅРѕРј РѕС‚С‡РµС‚Рµ.",
-      list: ["РСЃС‚РѕС‡РЅРёРє РєР°Р¶РґРѕРіРѕ РѕС‚РІРµС‚Р°", "РСЃС‚РѕСЂРёСЏ РІС‹РїРѕР»РЅРµРЅРЅС‹С… РґРµР№СЃС‚РІРёР№", "РўРµСЃС‚РѕРІС‹Р№ СЂРµР¶РёРј РґРѕ РїСѓР±Р»РёРєР°С†РёРё"],
-      dashboard: ["РћР±Р·РѕСЂ РЅРµРґРµР»Рё", "1вЂ“7 Р°РІРіСѓСЃС‚Р°", "РЎРѕРѕР±С‰РµРЅРёСЏ", "Р›РёРґС‹", "Р—Р°РїРёСЃРё", "РџРЅ", "Р’С‚", "РЎСЂ", "Р§С‚", "РџС‚", "РЎР±", "Р’СЃ"],
+      kicker: "Всё под контролем",
+      title: ["Вы видите не только ответы,", "но и результат"],
+      text: "Диалоги, лиды, записи, передачи человеку и ошибки собраны в понятном отчёте.",
+      list: ["Источник каждого ответа", "История выполненных действий", "Тестовый режим до публикации"],
+      dashboard: ["Обзор недели", "1–7 августа", "Сообщения", "Лиды", "Записи", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"],
     },
     faq: {
-      kicker: "Р§Р°СЃС‚С‹Рµ РІРѕРїСЂРѕСЃС‹",
-      title: ["РљРѕСЂРѕС‚РєРѕ", "Рѕ РІР°Р¶РЅРѕРј"],
+      kicker: "Частые вопросы",
+      title: ["Коротко", "о важном"],
       items: [
-        ["РР РјРѕР¶РµС‚ РѕС€РёР±РёС‚СЊСЃСЏ?", "Lemiri РѕС‚РІРµС‡Р°РµС‚ РїРѕ РїРѕРґРєР»СЋС‡РµРЅРЅС‹Рј РёСЃС‚РѕС‡РЅРёРєР°Рј, РїРѕРєР°Р·С‹РІР°РµС‚ РёС… РІ Р¶СѓСЂРЅР°Р»Рµ Рё РїРµСЂРµРґР°РµС‚ СЃРѕРјРЅРёС‚РµР»СЊРЅС‹Рµ РІРѕРїСЂРѕСЃС‹ С‡РµР»РѕРІРµРєСѓ."],
-        ["РќСѓР¶РЅРѕ СѓРјРµС‚СЊ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°С‚СЊ?", "РќРµС‚. РќР°СЃС‚СЂРѕР№РєР° СЃРґРµР»Р°РЅР° РєР°Рє РїРѕС€Р°РіРѕРІС‹Р№ Р·Р°РїСѓСЃРє СЃРѕС‚СЂСѓРґРЅРёРєР°: СЂРѕР»СЊ, Р·РЅР°РЅРёСЏ, РєР°РЅР°Р» Рё С‚РµСЃС‚."],
-        ["РњРѕР¶РЅРѕ РїРѕРґРєР»СЋС‡РёС‚СЊ CRM?", "Р”Р°. РћСЃРЅРѕРІРЅС‹Рµ CRM РїРѕРґРєР»СЋС‡Р°СЋС‚СЃСЏ РЅР°РїСЂСЏРјСѓСЋ, РѕСЃС‚Р°Р»СЊРЅС‹Рµ СЃРёСЃС‚РµРјС‹ РјРѕР¶РЅРѕ СЃРІСЏР·Р°С‚СЊ С‡РµСЂРµР· РІРµР±С…СѓРєРё Рё СЃРµСЂРІРёСЃС‹ Р°РІС‚РѕРјР°С‚РёР·Р°С†РёРё."],
-        ["Р§С‚Рѕ РїСЂРѕРёСЃС…РѕРґРёС‚, РєРѕРіРґР° РЅСѓР¶РµРЅ С‡РµР»РѕРІРµРє?", "РР-СЃРѕС‚СЂСѓРґРЅРёРє РїРµСЂРµРґР°РµС‚ РґРёР°Р»РѕРі РїРѕ Р·Р°РґР°РЅРЅС‹Рј РїСЂР°РІРёР»Р°Рј Рё РґРѕР±Р°РІР»СЏРµС‚ СЂРµР·СЋРјРµ, С‡С‚РѕР±С‹ РјРµРЅРµРґР¶РµСЂ Р±С‹СЃС‚СЂРѕ РїСЂРѕРґРѕР»Р¶РёР» СЂР°Р·РіРѕРІРѕСЂ."],
+        ["ИИ может ошибиться?", "Lemiri отвечает по подключённым источникам, показывает их в журнале и передаёт сомнительные вопросы человеку."],
+        ["Нужно уметь программировать?", "Нет. Настройка сделана как пошаговый запуск сотрудника: роль, знания, канал и тест."],
+        ["Можно подключить CRM?", "Да. Основные CRM подключаются напрямую, остальные системы можно связать через вебхуки и сервисы автоматизации."],
+        ["Что происходит, когда нужен человек?", "ИИ-сотрудник передаёт диалог по заданным правилам и добавляет резюме, чтобы менеджер быстро продолжил разговор."],
       ],
     },
-    cta: ["Р’Р°С€ СЃР»РµРґСѓСЋС‰РёР№ СЃРѕС‚СЂСѓРґРЅРёРє СѓР¶Рµ РіРѕС‚РѕРІ", "РџСѓСЃС‚СЊ РєР»РёРµРЅС‚С‹ РїРѕР»СѓС‡Р°СЋС‚", "РѕС‚РІРµС‚, РїРѕРєР° РІС‹ Р·Р°РЅСЏС‚С‹ Р±РёР·РЅРµСЃРѕРј", "РЎРѕР·РґР°Р№С‚Рµ РїРµСЂРІРѕРіРѕ РР-СЃРѕС‚СЂСѓРґРЅРёРєР° Рё РїСЂРѕРІРµРґРёС‚Рµ С‚РµСЃС‚РѕРІС‹Р№ РґРёР°Р»РѕРі.", "РќР°С‡Р°С‚СЊ Р±РµСЃРїР»Р°С‚РЅРѕ", "Р—Р°РїСЂРѕСЃРёС‚СЊ РґРµРјРѕ"],
-    footer: ["Р“РѕС‚РѕРІС‹Р№ С†РёС„СЂРѕРІРѕР№ СЃРѕС‚СЂСѓРґРЅРёРє РґР»СЏ РІР°С€РµРіРѕ Р±РёР·РЅРµСЃР°.", "Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ", "В© 2026 Lemiri AI"],
-    mock: ["РќРѕРІР°СЏ Р·Р°СЏРІРєР°", "РєРІР°Р»РёС„РёС†РёСЂРѕРІР°РЅР°", "РђРЅРЅР° Рљ.", "РҐРѕС‡РµС‚ Р·Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ", "Р”РёР°Р»РѕРіРё СЃРµРіРѕРґРЅСЏ", "РћС‚РІРµС‚РёС‚СЊ РєР»РёРµРЅС‚Сѓ...", "Р›РёРґ", "РљР°Р»РµРЅРґР°СЂСЊ", "РР", "РћС‚РІРµС‡Р°РµС‚ СЃРµР№С‡Р°СЃ", "РќР° Р·Р°РІС‚СЂР° РµСЃС‚СЊ РґРІР° СЃРІРѕР±РѕРґРЅС‹С… РѕРєРЅР°: 12:30 Рё 16:00. РљР°РєРѕРµ РІР°Рј СѓРґРѕР±РЅРµРµ?", "РџРµСЂРµРґР°С‡Р° РјРµРЅРµРґР¶РµСЂСѓ", "РљР»РёРµРЅС‚ РіРѕС‚РѕРІ РѕР±СЃСѓРґРёС‚СЊ РґРµС‚Р°Р»Рё", "Р РµР·СЋРјРµ РїРѕРґРіРѕС‚РѕРІР»РµРЅРѕ"],
+    cta: ["Ваш следующий сотрудник уже готов", "Пусть клиенты получают", "ответ, пока вы заняты бизнесом", "Создайте первого ИИ-сотрудника и проведите тестовый диалог.", "Начать бесплатно", "Запросить демо"],
+    footer: ["Готовый цифровой сотрудник для вашего бизнеса.", "Документация", "© 2026 Lemiri AI"],
+    mock: ["Новая заявка", "квалифицирована", "Анна К.", "Хочет записаться на консультацию", "Диалоги сегодня", "Ответить клиенту...", "Лид", "Календарь", "ИИ", "Отвечает сейчас", "На завтра есть два свободных окна: 12:30 и 16:00. Какое вам удобнее?", "Передача менеджеру", "Клиент готов обсудить детали", "Резюме подготовлено"],
   },
   en: {
     nav: ["Capabilities", "How it works", "Roles", "FAQ"],
@@ -128,7 +128,7 @@ const copy = {
         ["Control", "Hands off on time", "Detects complex questions and attaches a short conversation summary."],
         ["Actions", "Takes the next step", "Creates a lead, shows available slots, updates status, and notifies the team."],
       ],
-      miniChat: ["Customer", "Do you deliver today?", "Lemiri В· source: FAQ", "Yes, orders placed before 5 PM can be delivered today."],
+      miniChat: ["Customer", "Do you deliver today?", "Lemiri · source: FAQ", "Yes, orders placed before 5 PM can be delivered today."],
       sources: ["Website", "Services and pricing.pdf", "FAQ"],
       flow: ["Chat completed", "Lead created", "Team notified"],
     },
@@ -159,7 +159,7 @@ const copy = {
       title: ["You see not only replies,", "but results"],
       text: "Conversations, leads, bookings, handoffs, and errors are collected in a clear report.",
       list: ["Source for every answer", "History of completed actions", "Test mode before publishing"],
-      dashboard: ["Weekly overview", "August 1вЂ“7", "Messages", "Leads", "Bookings", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      dashboard: ["Weekly overview", "August 1–7", "Messages", "Leads", "Bookings", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     },
     faq: {
       kicker: "FAQ",
@@ -172,7 +172,7 @@ const copy = {
       ],
     },
     cta: ["Your next employee is ready", "Let customers get", "answers while you run the business", "Create your first AI employee and run a test conversation.", "Start free", "Request demo"],
-    footer: ["A ready-to-launch digital employee for your business.", "Documentation", "В© 2026 Lemiri AI"],
+    footer: ["A ready-to-launch digital employee for your business.", "Documentation", "© 2026 Lemiri AI"],
     mock: ["New lead", "qualified", "Anna K.", "Wants to book a consultation", "Conversations today", "Write a reply...", "Lead", "Calendar", "AI", "Replying now", "Tomorrow has two available slots: 12:30 and 16:00. Which one works better?", "Human handoff", "Customer is ready to discuss details", "Summary prepared"],
   },
 } as const;
@@ -233,7 +233,7 @@ export default function Home() {
     <main>
       <header className="nav shell">
         <a className="logo" href="#top" aria-label="Lemiri AI"><img src={logoUrl} alt="Lemiri AI" /></a>
-        <nav aria-label={lang === "ru" ? "РћСЃРЅРѕРІРЅР°СЏ РЅР°РІРёРіР°С†РёСЏ" : "Main navigation"}>
+        <nav aria-label={lang === "ru" ? "Основная навигация" : "Main navigation"}>
           <a href="#capabilities">{t.nav[0]}</a><a href="#how">{t.nav[1]}</a><a href="#roles">{t.nav[2]}</a><a href="#faq">{t.nav[3]}</a>
         </nav>
         <div className="navActions">
@@ -251,26 +251,26 @@ export default function Home() {
         <div className="eyebrow"><i /> {t.eyebrow}</div>
         <h1>{t.heroStart}<br />{t.heroMid} <em className="typePhrase"><span>{typedPhrase}</span><i aria-hidden="true" /></em><br />{t.heroEnd}</h1>
         <p className="heroCopy">{t.heroText}</p>
-        <div className="buttonRow"><a className="pill dark" href="#cta">{t.primary} <b>в†—</b></a><a className="pill ghost" href="#how">{t.secondary}</a></div>
+        <div className="buttonRow"><a className="pill dark" href="#cta">{t.primary} <b>↗</b></a><a className="pill ghost" href="#how">{t.secondary}</a></div>
 
-        <div className="artifact leadCard"><div className="artifactTop"><span>{t.mock[0]}</span><span className="live">в—Џ {t.mock[1]}</span></div><strong>{t.mock[2]}</strong><small>{t.mock[3]}</small><div className="leadMeta"><span>CRM<br /><b>{t.mock[6]}</b></span><span>{t.mock[7]}<br /><b>16:00</b></span></div></div>
-        <div className="artifact statCard"><small>{t.mock[4]}</small><strong>128</strong><span>в†‘ 24%</span><div className="bars"><i/><i/><i/><i/><i/><i/><i/></div></div>
-        <div className="artifact chatCard"><div className="avatar">{t.mock[8]}</div><div><b>Lemiri</b><small>{t.mock[9]}</small></div><p>{t.mock[10]}</p><div className="reply">{t.mock[5]} <span>в†‘</span></div></div>
-        <div className="artifact handoffCard"><small>{t.mock[11]}</small><b>{t.mock[12]}</b><span>{t.mock[13]} в†’</span></div>
+        <div className="artifact leadCard"><div className="artifactTop"><span>{t.mock[0]}</span><span className="live">● {t.mock[1]}</span></div><strong>{t.mock[2]}</strong><small>{t.mock[3]}</small><div className="leadMeta"><span>CRM<br /><b>{t.mock[6]}</b></span><span>{t.mock[7]}<br /><b>16:00</b></span></div></div>
+        <div className="artifact statCard"><small>{t.mock[4]}</small><strong>128</strong><span>↑ 24%</span><div className="bars"><i/><i/><i/><i/><i/><i/><i/></div></div>
+        <div className="artifact chatCard"><div className="avatar">{t.mock[8]}</div><div><b>Lemiri</b><small>{t.mock[9]}</small></div><p>{t.mock[10]}</p><div className="reply">{t.mock[5]} <span>↑</span></div></div>
+        <div className="artifact handoffCard"><small>{t.mock[11]}</small><b>{t.mock[12]}</b><span>{t.mock[13]} →</span></div>
       </section>
 
       <section className="trust"><div className="shell trustInner">{t.trust.map((item, index) => index === 0 ? <span key={item}>{item}</span> : <b key={item}>{item}</b>)}</div></section>
 
       <section className="section shell" id="capabilities">
         <div className="sectionHead"><span className="kicker">{t.capabilities.kicker}</span><h2>{t.capabilities.title[0]}<br /><em>{t.capabilities.title[1]}</em></h2><p>{t.capabilities.text}</p></div>
-        <div className="featureGrid">{t.capabilities.cards.map(([tag, title, text], index) => <article className={`feature ${index === 0 ? "large" : ""} ${index === 2 ? "accentPanel" : ""} ${index === 3 ? "wide" : ""}`} key={title}><span className="tag">{tag}</span><h3>{title}</h3><p>{text}</p>{index === 0 && <div className="miniChat"><span>{t.capabilities.miniChat[0]}</span><p>{t.capabilities.miniChat[1]}</p><span>{t.capabilities.miniChat[2]}</span><p>{t.capabilities.miniChat[3]}</p></div>}{index === 1 && <div className="sourceRows">{t.capabilities.sources.map((source) => <span key={source}>вњ“ {source}</span>)}</div>}{index === 3 && <div className="actionFlow">{t.capabilities.flow.map((item, flowIndex) => <span key={item}>{item}{flowIndex < t.capabilities.flow.length - 1 ? <b> в†’</b> : null}</span>)}</div>}</article>)}</div>
+        <div className="featureGrid">{t.capabilities.cards.map(([tag, title, text], index) => <article className={`feature ${index === 0 ? "large" : ""} ${index === 2 ? "accentPanel" : ""} ${index === 3 ? "wide" : ""}`} key={title}><span className="tag">{tag}</span><h3>{title}</h3><p>{text}</p>{index === 0 && <div className="miniChat"><span>{t.capabilities.miniChat[0]}</span><p>{t.capabilities.miniChat[1]}</p><span>{t.capabilities.miniChat[2]}</span><p>{t.capabilities.miniChat[3]}</p></div>}{index === 1 && <div className="sourceRows">{t.capabilities.sources.map((source) => <span key={source}>✓ {source}</span>)}</div>}{index === 3 && <div className="actionFlow">{t.capabilities.flow.map((item, flowIndex) => <span key={item}>{item}{flowIndex < t.capabilities.flow.length - 1 ? <b> →</b> : null}</span>)}</div>}</article>)}</div>
       </section>
 
       <section className="fog" id="how"><div className="section shell"><div className="splitHead"><div><span className="kicker">{t.how.kicker}</span><h2>{t.how.title[0]}<br /><em>{t.how.title[1]}</em></h2></div><p>{t.how.text}</p></div><div className="steps">{t.how.steps.map(([n, title, text]) => <article key={n}><span>{n}</span><h3>{title}</h3><p>{text}</p></article>)}</div></div></section>
 
-      <section className="section shell" id="roles"><div className="splitHead"><div><span className="kicker">{t.roles.kicker}</span><h2>{t.roles.title[0]}<br /><em>{t.roles.title[1]}</em></h2></div><p>{t.roles.text}</p></div><div className="roles">{t.roles.items.map(([n, title, text]) => <article key={n}><span>{n}</span><h3>{title}</h3><p>{text}</p><a href="#cta">{t.roles.action} в†’</a></article>)}</div></section>
+      <section className="section shell" id="roles"><div className="splitHead"><div><span className="kicker">{t.roles.kicker}</span><h2>{t.roles.title[0]}<br /><em>{t.roles.title[1]}</em></h2></div><p>{t.roles.text}</p></div><div className="roles">{t.roles.items.map(([n, title, text]) => <article key={n}><span>{n}</span><h3>{title}</h3><p>{text}</p><a href="#cta">{t.roles.action} →</a></article>)}</div></section>
 
-      <section className="section shell proof"><div className="proofText"><span className="kicker">{t.proof.kicker}</span><h2>{t.proof.title[0]} <em>{t.proof.title[1]}</em></h2><p>{t.proof.text}</p><ul>{t.proof.list.map((item) => <li key={item}>{item}</li>)}</ul></div><div className="dashboard"><div className="dashTop"><b>{t.proof.dashboard[0]}</b><span>{t.proof.dashboard[1]}</span></div><div className="metrics"><span><small>{t.proof.dashboard[2]}</small><b>846</b><i>в†‘ 18%</i></span><span><small>{t.proof.dashboard[3]}</small><b>127</b><i>в†‘ 31%</i></span><span><small>{t.proof.dashboard[4]}</small><b>64</b><i>в†‘ 12%</i></span></div><div className="chart"><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/></div><div className="dashFoot">{t.proof.dashboard.slice(5).map((day) => <span key={day}>{day}</span>)}</div></div></section>
+      <section className="section shell proof"><div className="proofText"><span className="kicker">{t.proof.kicker}</span><h2>{t.proof.title[0]} <em>{t.proof.title[1]}</em></h2><p>{t.proof.text}</p><ul>{t.proof.list.map((item) => <li key={item}>{item}</li>)}</ul></div><div className="dashboard"><div className="dashTop"><b>{t.proof.dashboard[0]}</b><span>{t.proof.dashboard[1]}</span></div><div className="metrics"><span><small>{t.proof.dashboard[2]}</small><b>846</b><i>↑ 18%</i></span><span><small>{t.proof.dashboard[3]}</small><b>127</b><i>↑ 31%</i></span><span><small>{t.proof.dashboard[4]}</small><b>64</b><i>↑ 12%</i></span></div><div className="chart"><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/><i/></div><div className="dashFoot">{t.proof.dashboard.slice(5).map((day) => <span key={day}>{day}</span>)}</div></div></section>
 
       <section className="section shell faq" id="faq"><div><span className="kicker">{t.faq.kicker}</span><h2>{t.faq.title[0]}<br /><em>{t.faq.title[1]}</em></h2></div><div className="questions">{t.faq.items.map(([question, answer], index) => <div className={`faqItem ${openFaq === index ? "isOpen" : ""}`} key={question}><button className="faqQuestion" type="button" onClick={() => setOpenFaq(openFaq === index ? null : index)} aria-expanded={openFaq === index}><span>{question}</span><i aria-hidden="true" /></button><div className="faqAnswer"><div><p>{answer}</p></div></div></div>)}</div></section>
 
@@ -292,10 +292,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="cta shell" id="cta"><span className="kicker">{t.cta[0]}</span><h2>{t.cta[1]}<br /><em>{t.cta[2]}</em></h2><p>{t.cta[3]}</p><div className="buttonRow"><a className="pill dark" href="mailto:hello@lemiri.ai?subject=Lemiri AI">{t.cta[4]} <b>в†—</b></a><a className="pill ghost" href="mailto:hello@lemiri.ai?subject=Lemiri AI demo">{t.cta[5]}</a></div></section>
+      <section className="cta shell" id="cta"><span className="kicker">{t.cta[0]}</span><h2>{t.cta[1]}<br /><em>{t.cta[2]}</em></h2><p>{t.cta[3]}</p><div className="buttonRow"><a className="pill dark" href="mailto:hello@lemiri.ai?subject=Lemiri AI">{t.cta[4]} <b>↗</b></a><a className="pill ghost" href="mailto:hello@lemiri.ai?subject=Lemiri AI demo">{t.cta[5]}</a></div></section>
 
       <footer className="shell"><a className="logo footerLogo" href="#top"><img src={logoUrl} alt="Lemiri AI" /></a><p>{t.footer[0]}</p><div><a href="#capabilities">{t.nav[0]}</a><a href="#how">{t.nav[1]}</a><a href="#faq">{t.nav[3]}</a><a href="/documentation">{t.footer[1]}</a></div><small>{t.footer[2]}</small></footer>
     </main>
   );
 }
-
