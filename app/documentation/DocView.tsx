@@ -1,16 +1,11 @@
 "use client";
 
-import { notFound } from "next/navigation";
 import { useEffect, useState } from "react";
-import { docs, docsUi, getDoc, type DocsLang } from "../docsContent";
+import { docsUi, type DocPage, type DocsLang } from "./docsContent";
 
-export function generateStaticParams() {
-  return docs.map((doc) => ({ slug: doc.slug }));
-}
-
-export default function DocumentPage({ params }: { params: { slug: string } }) {
-  const doc = getDoc(params.slug);
+export function DocView({ doc }: { doc: DocPage }) {
   const [lang, setLang] = useState<DocsLang>("ru");
+  const ui = docsUi[lang];
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -31,14 +26,10 @@ export default function DocumentPage({ params }: { params: { slug: string } }) {
     return () => observer.disconnect();
   }, [lang]);
 
-  if (!doc) notFound();
-
-  const ui = docsUi[lang];
-
   return (
     <main className="docsPage docPage">
       <div className="docsToolbar">
-        <a className="docsBack" href="/documentation">{lang === "ru" ? "← Все документы" : "← All documents"}</a>
+        <a className="docsBack" href="/documentation">{ui.allDocs}</a>
         <div className="langSwitch animated" aria-label={ui.language}>
           <span className={`langThumb ${lang}`} aria-hidden="true" />
           <button type="button" className={lang === "ru" ? "active" : ""} onClick={() => setLang("ru")}>RU</button>
@@ -48,7 +39,7 @@ export default function DocumentPage({ params }: { params: { slug: string } }) {
 
       <article className="docArticle">
         <header>
-          <span className="kicker">{ui.updated}</span>
+          <span className="kicker">{ui.template}</span>
           <h1>{doc.title[lang]}</h1>
           <p>{doc.summary[lang]}</p>
         </header>
